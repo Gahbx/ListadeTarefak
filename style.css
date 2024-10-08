@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding:0 ;
+    background-color: black;
+   
+  
+}
+@font-face{
+        font-family: Ubuntumono;
+        src: url(./fonts/ubutu/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+}
+#container{
+  margin: auto;
+    text-align: center;
+    font-family: Ubuntumono;
+}
+#logo{
+    width: 540px;
+    height: 120px;
+    margin-top: 143px;
+    margin-bottom: 80px;
+}
+#containadd{
+    display: flex;
+    justify-content: center;
+
+
+}
+#novaTrf{
+    width: 400px; 
+    height: 46px;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+    margin-right: 20px;
+}
+#add{
+    width: 150px;
+    height: 46px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.trfs {
+
+    margin: auto;
+    color: azure; 
+    text-align: center;
+    width: 600px;
+    display: flex;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+li{     
+
+    margin-top: 13px;
+    height: 46px;
+    padding: auto;
+    list-style: none;
+    width: 460px;
+    height: auto;
+   
+}
+.check{
+    margin-top: 20px;
+    margin-left: 20px ;
+    width: 18px;
+    height: 20px;
+
+
+}
+.btnEdit{
+    background-image: url(./assets/edit.png);
+    background-color: #1e1e1e;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 18px;
+    height: 20px;
+    border: none;
+
+
+}
+.remover{
+    background-image: url(./assets/remove.png);
+    background-color: #1e1e1e;
+    background-repeat: no-repeat;
+    margin: 20px;
+    width: 18px;
+    height: 20px;
+    border: none;
+}
