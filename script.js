@@ -6,9 +6,9 @@ function adicionarTarefa(){
   //valida a tarefa 
 
 
-   // if(novaTarefa.value == ''){
-   //  return
-   // };
+   if(novaTarefa.value == ''){
+    return
+   };
     
    const barraTrf= document.createElement('div');
    barraTrf.classList.add('trfs')
@@ -39,7 +39,7 @@ function adicionarTarefa(){
    btnRemove.addEventListener('click',()=>{
     barraTrf.remove()
    } );
- document.getElementById('novaTarefa').value = '';
+novaTarefa.value = '';
 
   
      barraTrf.appendChild(btnRemove)
