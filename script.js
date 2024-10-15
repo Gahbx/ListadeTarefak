@@ -9,6 +9,7 @@ function adicionarTarefa(){
    if(novaTarefa.value == ''){
     return
    };
+    
    const barraTrf= document.createElement('div');
    barraTrf.classList.add('trfs')
 
@@ -38,6 +39,7 @@ function adicionarTarefa(){
    btnRemove.addEventListener('click',()=>{
     barraTrf.remove()
    } );
+ document.getElementById('novaTarefa').value = '';
 
   
      barraTrf.appendChild(btnRemove)
